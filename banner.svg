@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title">
+  <title id="title">Hello, I'm Elizaveta — software engineering student</title>
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="430" rx="27"/></clipPath>
+    <!-- Background colors -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5"/>
+      <stop offset="100%" stop-color="#F7D4E3"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <!-- Waves: change fill to edit colors -->
+    <path d="M0 348 Q225 210 475 325 T900 350 Q1080 321 1200 251 V430H0Z" fill="#F0B5CF"/>
+    <path d="M0 383 Q300 294 614 359 T1200 326 V430H0Z" fill="#D77EA5"/>
+    <path d="M0 414 Q300 385 560 405 T1200 386 V430H0Z" fill="#AA4674" opacity=".43"/>
+    <!-- Decorative stars -->
+    <g fill="#AD527A">
+      <path d="M105 63 Q106 78 121 79 Q106 80 105 95 Q104 80 89 79 Q104 78 105 63Z"/>
+      <path d="M1085 68 Q1086 86 1104 87 Q1086 88 1085 106 Q1084 88 1066 87 Q1084 86 1085 68Z"/>
+      <path d="M1118 212 Q1119 223 1130 224 Q1119 225 1118 236 Q1117 225 1106 224 Q1117 223 1118 212Z"/>
+      <path d="M228 291 Q229 301 239 302 Q229 303 228 313 Q227 303 217 302 Q227 301 228 291Z"/>
+      <path d="M974 277 Q975 290 988 291 Q975 292 974 305 Q973 292 960 291 Q973 290 974 277Z"/>
+      <path d="M62 240 Q63 246 69 247 Q63 248 62 254 Q61 248 55 247 Q61 246 62 240Z"/>
+    </g>
+    <!-- Editable text: change the words, fill, font-size or font-family -->
+    <text x="600" y="183" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-style="italic" fill="#672344">hello, i'm elizaveta</text>
+    <text x="600" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="6" fill="#8A3E61">SOFTWARE ENGINEERING STUDENT</text>
+  </g>
+</svg>
